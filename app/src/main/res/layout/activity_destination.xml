@@ -128,14 +128,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="Produk Scarlett merupakan brand perawatan tubuh dan sedang naik daun saat ini. Merek ini menyediakan beberapa paket produk perawatan tubuh. Paket body care terdiri dari body shower, body lotion, dan body scrub."
+                        android:text="Produk Scarlett merupakan brand perawatan tubuh dan sedang naik daun saat ini. "
                         android:textColor="@color/white" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
-                        android:orientation="horizontal"></LinearLayout>
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="15dp"
+                        android:layout_weight="0.5"
+                        android:text="Order Now"
+                        android:textAllCaps="false" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
